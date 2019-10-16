@@ -40,5 +40,5 @@ def update_counting_hash(hash, key)
     hash[key] = 1
     ret_hash = {key => hash[key]}
   end
-  return ret_hash
+  return hash
 end
